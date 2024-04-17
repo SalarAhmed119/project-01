@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;    
+    padding: 0px 30px;
+}
+#nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-part-01{
+    display: flex;
+}
+#nav-part-01>h2{
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+#nav-part-01>button{
+    border: 2px solid #000;
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #000;
+}
+#nav-part-02>h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#nav-part-03>button{
+    border: 2px solid #000;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-size: 17px;
+    background-color: #fff;
+    color: #000;
+}
+#signup{
+    background-color: orangered !important;
+    color: #fff !important;
+    border: none !important;
+}
+#main>h1{
+    font-size: 140px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    width: 100%;
+}
+#main>img{
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 15px;
+    transform: translate(-50%,-50%);
+}
+#main>#image-01{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#main>#image-02{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#main>#image-03{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#main>#image-04{
+    transform: translate(-50%,-50%) rotate(-40deg);
+}
+#main>#image-05{
+    transform: translate(-50%,-50%) rotate(0deg);
+}
+#main>p{
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 20px;
+}
+#main>#social-icons{
+    position: absolute;
+    bottom: 50px;
+    right: 30px;
+}
+#main>#social-icons>a{
+    text-decoration: none;
+    color: #000;
+    padding-right: 8px;
+    font-size: 20px;
+}
+#main>#last-para{
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    text-transform: capitalize;
+}
+#main>#down-arrow{
+    width: 80px;
+    height: 70px;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translate(-50%,10%);
+    border: 2px solid #000;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+#main>#down-arrow>i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
